@@ -6,8 +6,7 @@ const http = require("http"),
   fs = require("fs"),
   io = require("socket.io");
 
-const uri =
-  "mongodb+srv://Vishalpawar:password@cluster0.exda5us.mongodb.net/Test?retryWrites=true&w=majority";
+const uri = "";
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => console.log("connected to db"))
